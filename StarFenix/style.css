@@ -32,7 +32,6 @@ body {
 
 .menu .menu-links li a{
     color: white;
-    text-transform: uppercase;
 }
 
 .menu .menu-links li a:hover{
@@ -63,6 +62,17 @@ body {
 
 .post {
 	margin-bottom: 50px;
+}
+
+.main-post-section {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 58px;
+	text-align: justify;
+}
+
+.main-post-title{
+	margin-bottom: 30px;
 }
 
 .link-primary{

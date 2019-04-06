@@ -4,10 +4,9 @@ if(is_single()):
 
  ?>
 
- <div class="post">
- 	<h2 class="post-title"><?php the_title(); ?></h2>
+
+ 	<h2 class="main-post-title"><?php the_title(); ?></h2>
  	<?php  the_content();?>
- </div>
 
  <?php  else:?>
 
