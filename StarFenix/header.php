@@ -9,6 +9,8 @@
 <body>
 
 	<div class="main-header">
+		<?php wp_nav_menu(array('menu' => 'Nome do Menu', 'container' => 'nav', 'container_class' => 'menu', 'menu_class' => 'menu-links')); ?>
+      <h1><?php echo bloginfo('name'); ?></h1>
 	</div>
 
 

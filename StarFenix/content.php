@@ -6,8 +6,7 @@ if(is_single()):
 
  <div class="post">
  	<h2 class="post-title"><?php the_title(); ?></h2>
- 	<?php  the_excerpt();?>
-    <a href="<?php the_permalink(); ?>" class="link-primary">Veja mais</a>
+ 	<?php  the_content();?>
  </div>
 
  <?php  else:?>
