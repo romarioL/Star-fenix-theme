@@ -2,7 +2,15 @@
 
 <div class="content">
 
+	<div class="header-slide">
+   
+    <div class="bxslider">
+		  <div><img src="<?php bloginfo('template_url'); ?>/img/paint.svg" ></div>
+		  <div><img src="<?php bloginfo('template_url'); ?>/img/vintage.svg"></div>
+    </div>
 
+</div>
+	 
 	
 
 	<div class="main-section">
