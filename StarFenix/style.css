@@ -46,6 +46,8 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
+	margin-bottom: 300px;
+
 }
 
 .posts-section {
@@ -56,7 +58,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	margin-left: 200px;
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: #FFFAFA;
 }
 
@@ -69,6 +71,7 @@ body {
 	margin-right: 200px;
 	margin-top: 58px;
 	text-align: justify;
+	margin-bottom: 200px;
 }
 
 .main-post-title{
@@ -79,10 +82,44 @@ body {
 	border : 2px solid #2F4F4F;
 	padding: 10px;
 	color: #2F4F4F;
+	width: 100px;
 }
 
 .link-primary:hover {
 	text-decoration: none;
 	background-color: #2F4F4F;
 	color: white; 
+}
+
+.widgets {
+	background-color: black;
+	color: white;
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.widget {
+	margin: 15px;
+}
+
+.widget ul {
+	list-style: none;
+
+}
+
+.widget ul li{
+	margin-left: 0;
+}
+
+.widget ul li a{
+	color: white;
+}
+
+.widget ul li a:hover{
+	text-decoration: none;
+}
+.widget p{
+	text-align: justify;
 }
